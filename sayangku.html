@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HAPPY BIRTHDAY SAYANGKU ERSA 💖</title>
+
+    <!-- Google Fonts - Coquette Style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Caveat:wght@400;700&family=Parisienne&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #fff5f8;
+        font-family: "Poppins", sans-serif;
+        color: #d46b8d;
+        text-align: center;
+        min-height: 100vh;
+        overflow-x: hidden;
+        position: relative;
+        background-image: url("https://www.transparenttextures.com/patterns/speckle-dark.png");
+        background-size: 200px;
+        background-opacity: 0.2;
+      }
+
+      .container {
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+      }
+
+      h1 {
+        font-family: "Great Vibes", cursive;
+        font-size: 4rem;
+        color: #e95db5;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 8px rgba(255, 180, 210, 0.5);
+      }
+
+      .subtitle {
+        font-family: "Parisienne", cursive;
+        font-size: 1.5rem;
+        color: #b8739a;
+        margin-bottom: 30px;
+      }
+
+      .message {
+        font-family: "Caveat", cursive;
+        font-size: 1.4rem;
+        line-height: 1.8;
+        color: #c95a8a;
+        background-color: rgba(255, 245, 250, 0.7);
+        border-radius: 15px;
+        padding: 30px;
+        margin: 30px auto;
+        max-width: 600px;
+        box-shadow: 0 4px 15px rgba(233, 109, 181, 0.2);
+        backdrop-filter: blur(5px);
+      }
+
+      .ask-button {
+        margin-top: 30px;
+        font-family: "Caveat", cursive;
+        font-size: 1.5rem;
+        color: #e05ca7;
+        background: none;
+        border: none;
+        cursor: pointer;
+        text-decoration: underline;
+        animation: pulse 1.5s infinite;
+      }
+
+      .ask-button:hover {
+        color: #a0406a;
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.7;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      /* Glitter Effect */
+      .glitter {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #ffe6f0;
+        border-radius: 50%;
+        opacity: 0.7;
+        pointer-events: none;
+        z-index: 1;
+        animation: fall linear forwards;
+      }
+
+      @keyframes fall {
+        0% {
+          transform: translateY(-100px) rotate(0deg);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(100vh) rotate(360deg);
+          opacity: 0;
+        }
+      }
+
+      /* Music Toggle
+    .music-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #e95db5;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 15px;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(233, 109, 181, 0.4);
+      z-index: 100;
+    } */
+
+      /* Pop-up Chat */
+      .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 400px;
+        background: white;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        border: 3px solid #ffb6c1;
+      }
+
+      .popup h3 {
+        font-family: "Caveat", cursive;
+        font-size: 1.5rem;
+        color: #d46b8d;
+        margin-bottom: 15px;
+      }
+
+      .popup p {
+        font-size: 1rem;
+        color: #888;
+        margin-bottom: 15px;
+      }
+
+      .close-btn {
+        background: #e95db5;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-family: inherit;
+        float: right;
+      }
+
+      /* Decorative Elements */
+      .deco {
+        position: absolute;
+        z-index: 1;
+        opacity: 0.3;
+        pointer-events: none;
+      }
+
+      .deco-1 {
+        top: 10%;
+        left: 10%;
+        font-size: 3rem;
+        color: #ff99cc;
+      }
+
+      .deco-2 {
+        bottom: 15%;
+        right: 10%;
+        font-size: 2.5rem;
+        color: #ffb6c1;
+      }
+
+      .heart {
+        color: #ff69b4;
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Background Decorations -->
+    <div class="deco deco-1">🍸🎀💐</div>
+    <div class="deco deco-2">💖🥂💗</div>
+
+    <div class="container">
+      <h1>Happy Birthday Honeyy!!</h1>
+      <p class="subtitle">untuk ersaku sayaangg💕</p>
+
+      <div class="message">
+        Happy 23rd birthday my loveee. Selamat yaaa semoga kamu selalu diberi
+        kesehatan dan rezeki yang melimpah. Aku pengen kamu tau, aku ga cuma
+        ngerayain ulang tahunmu, tapi juga ngerayain kehadiranmu di hidupku.
+        Kamu itu hadiah paling manis yang pernah aku dapetin. Setiap senyum
+        kamu, setiap candaan kecilmu, sampai hal-hal receh yang kamu lakukan
+        semua selalu bikin aku jatuh cinta berkali-kali. Aku harap di umur baru
+        ini, semua doa dan mimpi kamu bisa pelan-pelan jadi nyata. Aku pengen
+        kamu selalu sehat, bahagia, dan dikelilingi hal-hal baik. Dan tentu aja,
+        aku janji mau nemenin kamu di setiap langkah, baik pas kamu lagi seneng,
+        maupun pas lagi capek sama dunia. Sekali lagi, selamat ulang tahun,
+        cintaku. Kamu selalu jadi alasanku buat bersyukur setiap hari. 💖
+        <span class="heart">❤️</span>
+      </div>
+
+      <button class="ask-button" id="openPopup">Klik ini coba sayang</button>
+    </div>
+
+    <!-- Music Toggle -->
+    <!-- <button class="music-toggle" id="musicToggle">🎵 Musik ON/OFF</button> -->
+
+    <!-- Audio -->
+    <!-- <audio id="bgMusic" loop>
+    <source src="https://cdn.pixabay.com/audio/2021/12/14/audio_7f9f7861d1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio> -->
+
+    <!-- Pop-up Chat -->
+    <div class="popup" id="chatPopup">
+      <button class="close-btn" id="closePopup">×</button>
+      <h3>HI SAYANGG</h3>
+      <p>
+        Makasihh yaa sayang udah mau baca ini, aku minta maaf kalau masih ada
+        salah selama ini sama kamu i will love you always! 💖
+      </p>
+      <p style="font-size: 1.2rem">I LOVE YOU SO MUCH ❤️</p>
+    </div>
+
+    <script>
+      // Glitter Effect
+      function createGlitter() {
+        const glitter = document.createElement("div");
+        glitter.classList.add("glitter");
+        glitter.style.left = Math.random() * 100 + "vw";
+        glitter.style.opacity = Math.random() * 0.7 + 0.3;
+        glitter.style.width = glitter.style.height = Math.random() * 12 + "px";
+        glitter.style.animationDuration = Math.random() * 10 + 5 + "s";
+        document.body.appendChild(glitter);
+
+        setTimeout(() => {
+          glitter.remove();
+        }, 15000);
+      }
+
+      setInterval(createGlitter, 300);
+      createGlitter(); // First sparkle
+
+      // // Music Toggle
+      // const musicToggle = document.getElementById('musicToggle');
+      // const bgMusic = document.getElementById('bgMusic');
+
+      // let isPlaying = false;
+
+      // musicToggle.addEventListener('click', () => {
+      //   if (isPlaying) {
+      //     bgMusic.pause();
+      //     musicToggle.textContent = '🎵 Musik ON/OFF';
+      //   } else {
+      //     bgMusic.play().catch(e => alert("Browser tidak mengizinkan autoplay. Silakan klik tombol lagi setelah interaksi."));
+      //     musicToggle.textContent = '🎶 Musik ON';
+      //   }
+      //   isPlaying = !isPlaying;
+      // });
+
+      // Popup Chat
+      const popup = document.getElementById("chatPopup");
+      const openBtn = document.getElementById("openPopup");
+      const closeBtn = document.getElementById("closePopup");
+
+      openBtn.addEventListener("click", () => {
+        popup.style.display = "block";
+      });
+
+      closeBtn.addEventListener("click", () => {
+        popup.style.display = "none";
+      });
+
+      // Close popup when clicking outside
+      window.addEventListener("click", (e) => {
+        if (e.target === popup) {
+          popup.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>
